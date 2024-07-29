@@ -1,0 +1,7 @@
+<script>
+    const socket = new WebSocket("ws://localhost:9999/ws/get");
+    socket.onopen=function (event) {
+        console.log("get");
+        socket.send("hello ");
+    };
+</script>

@@ -3,7 +3,7 @@
 <mapper namespace="com.crazy.myspringboot.dao.MyDao">
 	<!-- 表字段 -->
 	<resultMap id="BaseResultMap" type="com.crazy.myspringboot.entity.User">
-		<id property="id" column="id" jdbcType="VARCHAR"/>
+		<id property="id" column="id" jdbcType="INTEGER"/>
 		<result property="userName" column="user_name" jdbcType="VARCHAR"/>
 	</resultMap>
     
